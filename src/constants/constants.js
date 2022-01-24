@@ -1,7 +1,7 @@
 export const projects = [
   {
-    title: 'Cryptocurrency App',
-    description: "",
+    title: 'Cryptocurrency Track',
+    description: "Cryptocurrency Track is a platform that lets the user discover and learn more about the blockchain world.",
       image: '/images/projectImage.png',
       tags: ['React', 'Redux Toolkit', 'Rapid API', 'Ant Design'],
     source: 'https://github.com/firas-debich/kryptoApp',
@@ -9,8 +9,8 @@ export const projects = [
     id: 0,
   },
   {
-    title: ' Travel Companion ',
-    description: "",
+    title: 'Travel Companion',
+    description: "Travel Companion is a platform that lets customers discover new local or international restaurants, Hotel, Attractions and it's easy to use.",
     image: '/images/1.png',
     tags: ['React', 'Rapid API', 'Material UI', 'Google API'],
     source: 'https://github.com/firas-debich/travel.github.io',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Chrome Extension',
-    description:"",
+    description:"An Extension that blocks some of social media and unsecure website",
     image: '/images/2.png',
     tags: ['JavaScript',"Html 5","CSS 3"],
     source: 'https://github.com/firas-debich/chrome-extension',
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'Blockchain App',
-    description:"",
+    description:"Blockchain cryptocurrency app is a platform that allow the user to send ethereum through the blockchain network",
     image: '/images/bc.png',
     tags: ['React',"Tailwind CSS","Solidity","web 3"],
     source: 'https://github.com/firas-debich/Blockchain-App',
@@ -46,7 +46,7 @@ export const projects = [
   },
   {
     title: 'UberEats Clone',
-    description: "",
+    description: "UberEats Clone is a commission-free online ordering system and food ordering app helping restaurants feed their hungry customers.",
     image: '/images/4.png',
     tags: ['React Native', 'Google Places', 'Firebase'],
     source: 'https://github.com/firas-debich/react-native-Uber-Eats-clone/tree/main',
