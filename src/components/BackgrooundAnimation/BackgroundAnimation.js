@@ -1,11 +1,11 @@
 import React from 'react';
-
+const prefix = "/portfilio"
 const BackgroundAnimation = () => (
  
 
 <div >
     
-<img src={"/portfilio.github.io-1/images/pic.png"} style={{
+<img src={prefix+"/images/pic.png"} style={{
     transform:"translateY(-8rem)"
 }} />
 

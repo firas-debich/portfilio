@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Cryptocurrency App',
     description: "",
-      image: '/portfilio.github.io-1/images/projectImage.png',
+      image: '/images/projectImage.png',
       tags: ['React', 'Redux Toolkit', 'Rapid API', 'Ant Design'],
     source: 'https://github.com/firas-debich/kryptoApp',
     visit: 'https://firas-debich.github.io/kryptoApp/',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: ' Travel Companion ',
     description: "",
-    image: '/portfilio.github.io-1/images/1.png',
+    image: '/images/1.png',
     tags: ['React', 'Rapid API', 'Material UI', 'Google API'],
     source: 'https://github.com/firas-debich/travel.github.io',
     visit: 'https://firas-debich.github.io/travel.github.io/',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Chrome Extension',
     description:"",
-    image: '/portfilio.github.io-1/images/2.png',
+    image: '/images/2.png',
     tags: ['JavaScript',"Html 5","CSS 3"],
     source: 'https://github.com/firas-debich/chrome-extension',
     visit: 'https://github.com/firas-debich/chrome-extension',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Blockchain App',
     description:"",
-    image: '/portfilio.github.io-1/images/bc.png',
+    image: '/images/bc.png',
     tags: ['React',"Tailwind CSS","Solidity","web 3"],
     source: 'https://github.com/firas-debich/Blockchain-App',
     visit: 'https://firas-debich.github.io/Blockchain-App/',
@@ -38,7 +38,7 @@ export const projects = [
   {
     title: 'Carx',
     description: "",
-      image: '/portfilio.github.io-1/images/carXProject.png',
+      image: '/images/carXProject.png',
       tags: ['React Native', 'Tailwind css',"Nest Js","PostgreSQL"],
     source: 'https://github.com/firas-debich/carX',
     visit: 'https://expo.dev/artifacts/b7481cbc-d12e-4968-8e7c-1b07c907c1b2',
@@ -47,7 +47,7 @@ export const projects = [
   {
     title: 'UberEats Clone',
     description: "",
-    image: '/portfilio.github.io-1/images/4.png',
+    image: '/images/4.png',
     tags: ['React Native', 'Google Places', 'Firebase'],
     source: 'https://github.com/firas-debich/react-native-Uber-Eats-clone/tree/main',
     visit: 'https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40firas_debich/UberEats-602025d23a45443b97518d82ff703a74-signed.apk',
