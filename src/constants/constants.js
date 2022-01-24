@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     title: 'Carx',
-    description: "",
+    description: "A team Project where we Developed a mobile application that allows car users to ask for an agent to clean their car where ever they are.",
       image: '/images/carXProject.png',
       tags: ['React Native', 'Tailwind css',"Nest Js","PostgreSQL"],
     source: 'https://github.com/firas-debich/carX',
