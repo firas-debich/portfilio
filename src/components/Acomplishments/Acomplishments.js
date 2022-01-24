@@ -1,12 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { number: "Baccalaureat", text: 'High school Errafeha 09/2019 - 08/2020'},
-  { number: "Full Stack Js Developer", text: "ReBootkamp Tunisia 07/2021 - 11/2021" },
- 
+  { number: "Baccalaureat", text: "High school Errafeha 09/2019 - 08/2020" },
+  {
+    number: "Full Stack Js Developer",
+    text: "ReBootkamp Tunisia 07/2021 - 11/2021",
+  },
 ];
 
 const Acomplishments = () => (
@@ -20,7 +26,7 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
-    <SectionDivider/>
+    <SectionDivider />
   </Section>
 );
 
