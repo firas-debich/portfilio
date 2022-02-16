@@ -5,6 +5,7 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons,Span } from './HeaderStyles';
 import { GoCloudDownload } from "react-icons/go";
+const prefix = "/portfilio" 
 const Header = () =>  (
   <Container>
     <Div1>
@@ -38,7 +39,7 @@ const Header = () =>  (
         <SocialIcons href="https://www.linkedin.com/in/firas-debich-a0b703223/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="/images/resume.pdf" download>
+        <SocialIcons href={`${prefix}/images/resume.pdf`} download>
           <GoCloudDownload size="3rem" />
         </SocialIcons>
       </Div3>

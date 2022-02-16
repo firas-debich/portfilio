@@ -13,7 +13,7 @@ import {
   SocialContainer,
   SocialIconsContainer,
 } from "./FooterStyles";
-
+const prefix = "/portfilio" 
 const Footer = () => {
   return (
     <FooterWrapper>
@@ -40,7 +40,7 @@ const Footer = () => {
           <SocialIcons href="https://www.linkedin.com/in/firas-debich-a0b703223/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="/images/resume.pdf" download>
+          <SocialIcons href={`${prefix}/images/resume.pdf`} download>
             <GoCloudDownload size="3rem" />
           </SocialIcons>
         </SocialContainer>

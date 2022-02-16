@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection,Typing } from './HeroStyles';
 
 const Hero = (props) => (
   <>
@@ -13,7 +13,10 @@ const Hero = (props) => (
         Firas Debich
       </SectionTitle>
       <SectionText>
-      Full-Stack JavaScript Developer
+        <Typing>
+
+      Full-Stack JavaScript Developer.
+        </Typing>
          </SectionText>
     
     </LeftSection>

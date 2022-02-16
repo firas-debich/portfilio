@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled , { keyframes }from 'styled-components';
 
 export const LeftSection = styled.div`
   width: 100%;
@@ -17,3 +17,23 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+const typing = keyframes`
+from {
+  width: 0
+}
+`
+
+const blink = keyframes`
+50% {
+  border-color: transparent
+}
+`
+export const Typing = styled.div`
+  width: 32ch;
+  animation: ${typing} 2s steps(32), ${blink} .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+ `

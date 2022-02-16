@@ -1,5 +1,5 @@
 import { IoIosArrowDropdown } from 'react-icons/io';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
@@ -125,6 +125,5 @@ border-radius: 50px;
     
   }
 `
-
 
 

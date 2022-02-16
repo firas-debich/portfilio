@@ -3,7 +3,7 @@ const prefix = "/portfilio";
 const BackgroundImage = () => (
   <div>
     <img
-      src={prefix + "/images/pic.png"}
+      src={ `${prefix}/images/pic-min.png`}
       style={{
         transform: "translateY(-8rem)",
       }}
