@@ -24,7 +24,7 @@ const Hero = (props) => {
       </SectionTitle>
       <SectionText>
      
- <Typed strings={textLines} typeSpeed={70} loop/>
+ <Typed strings={textLines} typeSpeed={40}  backSpeed={40} loop/>
    
      </SectionText>
     
