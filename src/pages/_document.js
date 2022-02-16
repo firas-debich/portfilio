@@ -37,7 +37,7 @@ export default class MyDocument extends Document {
 <link rel = "icon" type = "image/png" sizes = "512x512" href = {prefix+"/images/server-coding.png"}/>
 <link rel = "shortcut icon" href = {prefix+"/images/server-coding.png"}/>
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-          <title>Portfilio</title>
+          <title>Firas Debich</title>
         </Head>
         <body>
           <Main />
