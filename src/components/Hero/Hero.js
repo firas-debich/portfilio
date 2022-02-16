@@ -2,10 +2,20 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection,Typing } from './HeroStyles';
+import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
-  <>
+import Typed from "react-typed";
+const Hero = (props) => {
+  const textLines = [
+  `
+  Full-Stack JavaScript Developer.`,
+];
+
+  
+  return(
+
+  
+    <>
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
@@ -13,15 +23,14 @@ const Hero = (props) => (
         Firas Debich
       </SectionTitle>
       <SectionText>
-        <Typing>
-
-      Full-Stack JavaScript Developer.
-        </Typing>
-         </SectionText>
+     
+ <Typed strings={textLines} typeSpeed={70} loop/>
+   
+     </SectionText>
     
     </LeftSection>
   </Section>
 </>
 );
-
+  }
 export default Hero;
