@@ -13,7 +13,7 @@ const blink = keyframes`
 `
 export const Typing = styled.div`
   width: 25ch;
-  animation: ${typing} 2s steps(22), ${blink} .5s step-end infinite alternate;
+  -webkit-animation: ${typing} 2s steps(22), ${blink} .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 4px solid;

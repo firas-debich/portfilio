@@ -13,10 +13,10 @@ const Hero = (props) => (
         Firas Debich
       </SectionTitle>
       <SectionText>
-      
+        <Typing>
 
       Full-Stack JavaScript Developer.
-      
+        </Typing>
          </SectionText>
     
     </LeftSection>
