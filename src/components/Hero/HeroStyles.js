@@ -13,7 +13,6 @@ export const LeftSection = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-
     margin: 0 auto;
   }
 `;
@@ -30,10 +29,10 @@ const blink = keyframes`
 }
 `
 export const Typing = styled.div`
-  width: 32ch;
-  animation: ${typing} 2s steps(32), ${blink} .5s step-end infinite alternate;
+  width: 25ch;
+  animation: ${typing} 2s steps(22), ${blink} .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
+  border-right: 4px solid;
+ 
  `

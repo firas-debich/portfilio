@@ -4,8 +4,9 @@ const BackgroundImage = () => (
   <div>
     <img
       src={ `${prefix}/images/pic-min.png`}
+      height="380px"
       style={{
-        transform: "translateY(-8rem)",
+        transform: "translateY(0)",
       }}
     />
   </div>
