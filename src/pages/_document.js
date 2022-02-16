@@ -33,9 +33,9 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
        
- <link rel = "apple-touch-icon" sizes = "512x512" href = {prefix+"images/server-coding.png"}/>
-<link rel = "icon" type = "image/png" sizes = "512x512" href = {prefix+"images/server-coding.png"}/>
-<link rel = "shortcut icon" href = {prefix+"images/server-coding.png"}/>
+ <link rel = "apple-touch-icon" sizes = "512x512" href = {prefix+"/images/server-coding.png"}/>
+<link rel = "icon" type = "image/png" sizes = "512x512" href = {prefix+"/images/server-coding.png"}/>
+<link rel = "shortcut icon" href = {prefix+"/images/server-coding.png"}/>
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
           <title>Portfilio</title>
         </Head>
