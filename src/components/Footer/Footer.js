@@ -31,7 +31,8 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+        {/*"contact me comp"*/}
+          <Slogan></Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/firas-debich">

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
-
+import { ImWink2 } from "react-icons/im";
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons,Span } from './HeaderStyles';
 import { GoCloudDownload } from "react-icons/go";
 const prefix = "/portfilio" 
@@ -11,7 +11,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color:"white" ,marginBottom:"20px"}}>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <ImWink2 size="2.8rem" /> <Span>Portfolio</Span>
         </a>
       </Link>
     </Div1>

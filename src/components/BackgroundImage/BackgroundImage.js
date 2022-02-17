@@ -5,7 +5,7 @@ const BackgroundImage = () => (
     <img
       src={ `${prefix}/images/pic-min.png`}
       height="380px"
-      alt="firas debich"
+      alt="firas debich - Firas Debich "
     />
   </div>
 );
