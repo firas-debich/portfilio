@@ -12,7 +12,7 @@ const Projects = () => (
     {projects.map((p, i) => {
       return (
         <BlogCard key={i}>
-        <Img src={prefix+p.image} />
+        <Img src={prefix+p.image} alt={p.alt} />
           <TitleContent>
             <HeaderThree title>{p.title}</HeaderThree>
             <Hr />

@@ -7,6 +7,7 @@ export const projects = [
     source: 'https://github.com/firas-debich/kryptoApp',
     visit: 'https://firas-debich.github.io/kryptoApp/',
     id: 0,
+    alt:"Cryptocurrency Track Firas debich project"
   },
   {
     title: 'Travel Companion',
@@ -16,6 +17,7 @@ export const projects = [
     source: 'https://github.com/firas-debich/travel.github.io',
     visit: 'https://firas-debich.github.io/travel.github.io/',
     id: 0,
+    alt:"Travel Companion google map  Firas debich project"
   },
   {
     title: 'Chrome Extension',
@@ -25,6 +27,8 @@ export const projects = [
     source: 'https://github.com/firas-debich/chrome-extension',
     visit: 'https://github.com/firas-debich/chrome-extension',
     id: 1,
+    alt:"Chrome Extension firas debich block website"
+
   },
   {
     title: 'Blockchain App',
@@ -34,6 +38,7 @@ export const projects = [
     source: 'https://github.com/firas-debich/Blockchain-App',
     visit: 'https://firas-debich.github.io/Blockchain-App/',
     id: 1,
+      alt:"Chrome Extension firas debich block website"
   },
   {
     title: 'Carx',
@@ -43,6 +48,7 @@ export const projects = [
     source: 'https://github.com/firas-debich/carX',
     visit: 'https://expo.dev/artifacts/b7481cbc-d12e-4968-8e7c-1b07c907c1b2',
     id: 2,
+     alt:"Carx firas debich"
   },
   {
     title: 'UberEats Clone',
@@ -52,6 +58,7 @@ export const projects = [
     source: 'https://github.com/firas-debich/react-native-Uber-Eats-clone/tree/main',
     visit: 'https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40firas_debich/UberEats-602025d23a45443b97518d82ff703a74-signed.apk',
     id: 3,
+    alt:"Uber Eats firas debich"
   },
 ];
 

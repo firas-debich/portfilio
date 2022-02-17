@@ -15,8 +15,8 @@ const GlobalStyles = createGlobalStyle`
 
   }
   ::selection{
-    color:black;
-    background-color:white
+    color:white;
+    background-color:black
   }
   body {
     font-family: ${props => props.theme.fonts.main};
