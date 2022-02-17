@@ -9,7 +9,7 @@ const Hero = (props) => {
   const textLines = [
   ` Hello, I'm <br/> Firas Debich`,
   `Full-Stack <br/> Web / Mobile`,
-  `JavaScript Developer.`
+  `JavaScript <br/> Developer.`
 ];
 
   
