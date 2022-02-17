@@ -11,15 +11,15 @@ const Technologies = dynamic(() => import("../components/Technologies/Technologi
 const Timeline = dynamic(() => import('../components/TimeLine/TimeLine'));
 const Home = () => {
    const { observe, inView } = useInView({
-    onEnter: ({ unobserve }) => unobserve(), // only run once
+    onEnter: ({ unobserve }) => unobserve(), 
   });
      const { observe:observe1, inView:inView1 } = useInView({
-    onEnter: ({ unobserve }) => unobserve(), // only run once
+    onEnter: ({ unobserve }) => unobserve(), 
   });
      const { observe:observe2, inView:inView2 } = useInView({
-    onEnter: ({ unobserve }) => unobserve(), // only run once
+    onEnter: ({ unobserve }) => unobserve(), 
   });
-  console.log({inView,inView1,inView2});
+
   return (
     <Layout>
      <Section grid> 
@@ -28,11 +28,11 @@ const Home = () => {
      </Section> 
       <Projects />
   
-      <div ref={observe}>
+      <div ref={observe} id="tech">
      {inView &&  <Technologies />}
       </div>
   
-      <div ref={observe1}>
+      <div ref={observe1} id="about">
      {inView1 &&  <Timeline />}
       </div>
 
