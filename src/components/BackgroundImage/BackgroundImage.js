@@ -3,7 +3,7 @@ const prefix = "/portfilio";
 const BackgroundImage = () => (
   <div>
     <img
-      src={ `${prefix}/images/pic-min.png`}
+      src={ `/images/pic-min.png`}
       height="380px"
     />
   </div>
