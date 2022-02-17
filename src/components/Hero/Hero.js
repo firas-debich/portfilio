@@ -7,8 +7,8 @@ import { LeftSection } from './HeroStyles';
 import Typed from "react-typed";
 const Hero = (props) => {
   const textLines = [
-  ` Hello, I'm Firas Debich`,
-  `Full-Stack Web/Mobile`,
+  ` Hello, I'm <br/> Firas Debich`,
+  `Full-Stack <br/> Web / Mobile`,
   `JavaScript Developer.`
 ];
 
