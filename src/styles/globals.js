@@ -36,6 +36,30 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
+  ::-webkit-scrollbar{
+    width:10px
+  }
+  ::-webkit-scrollbar-track{
+   background-color:${props => props.theme.colors.background1};
+  
+  }
+  ::-webkit-scrollbar-track:hover{
+    background-color:rgba(255,255,255,0.75);
+  
+  
+    }
+  ::-webkit-scrollbar-thumb{
+    background-color:rgba(255,255,255,0.75);
+    border-radius:2px;
+ 
+    
+    
+   }
+   ::-webkit-scrollbar-thumb:hover{
+    background-color:${props => props.theme.colors.background1};
+    border-radius:0;
+    
+   }
 `;
 
 export default GlobalStyles;
