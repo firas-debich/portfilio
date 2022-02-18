@@ -2,7 +2,7 @@ import React from "react";
 import { BiCodeAlt } from "react-icons/bi";
 
 import { BiCodeCurly } from "react-icons/bi";
-import { Spring, animated } from "react-spring";
+
 import { AiFillCode } from "react-icons/ai";
 import {
   Section,
