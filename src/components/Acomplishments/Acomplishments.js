@@ -4,6 +4,7 @@ import {
   Section,
   SectionDivider,
   SectionTitle,
+  Fade,
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
@@ -16,18 +17,31 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <Section>
-    <SectionTitle>Education</SectionTitle>
-    <Boxes>
-      {data.map((card, index) => (
-        <Box key={index}>
-          <BoxNum>{`${card.number}`}</BoxNum>
-          <BoxText>{card.text}</BoxText>
-        </Box>
-      ))}
-    </Boxes>
-    <SectionDivider />
-  </Section>
+  <Fade>
+    <Section>
+      <Fade>
+        <SectionTitle>Education</SectionTitle>
+      </Fade>
+      <Fade>
+        <Boxes>
+          {data.map((card, index) => (
+            <Box key={index}>
+                <Fade>
+             
+                  <BoxNum>{`${card.number}`}</BoxNum>
+               
+                  <BoxText>{card.text}</BoxText>
+            
+            </Fade>
+              </Box>
+          ))}
+        </Boxes>
+      </Fade>
+      <Fade>
+        <SectionDivider />
+      </Fade>
+    </Section>
+  </Fade>
 );
 
 export default Acomplishments;

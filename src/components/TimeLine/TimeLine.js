@@ -16,6 +16,7 @@ import {
   SectionDivider,
   SectionText,
   SectionTitle,
+  Fade
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
 
@@ -62,20 +63,35 @@ const Timeline = () => {
   }, []);
 
   return (
+    <Fade>
+
     <Section id="about">
+    <Fade>
+
+
       <SectionTitle>About Me</SectionTitle>
+    </Fade>
+      <Fade>
+
       <SectionText>
         A passionate Full Stack Software Developer having an experience of
         building Web an Mobile applications with JavaScript / Reactjs /
         React-Native / Nodejs and some other cool libraries and frameworks.
       </SectionText>
+      </Fade>
+    <Fade>
+
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
+   
+
+
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
-              key={index}
-              final={index === TOTAL_CAROUSEL_COUNT - 1}
+            key={index}
+            final={index === TOTAL_CAROUSEL_COUNT - 1}
             >
+             
               <CarouselItem
                 index={index}
                 id={`carousel__item-${index}`}
@@ -90,11 +106,12 @@ const Timeline = () => {
                     viewBox="0 0 208 6"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                  >
+                    >
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
                       d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z"
+                  
                       fill="url(#paint0_linear)"
                       fill-opacity="0.33"
                     />
@@ -119,10 +136,14 @@ const Timeline = () => {
                 </CarouselItemTitle>
                 <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
+            
             </CarouselMobileScrollNode>
           ))}
         </>
       </CarouselContainer>
+    
+   
+
       <CarouselButtons>
         {TimeLineData.map((item, index) => {
           return (
@@ -138,8 +159,14 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
+    </Fade>
+    <Fade>
+
+
       <SectionDivider />
+    </Fade>
     </Section>
+    </Fade>
   );
 };
 
