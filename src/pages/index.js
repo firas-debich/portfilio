@@ -7,7 +7,7 @@ import { Layout } from "../layout/Layout";
 import { Section, Up } from "../styles/GlobalComponents";
 import dynamic from "next/dynamic";
 import useInView from "react-cool-inview";
-const  UpArrow ="/up-arrow.svg";
+
 const Projects = dynamic(() => import("../components/Projects/Projects"));
 const Technologies = dynamic(() =>
   import("../components/Technologies/Technologies")
@@ -36,7 +36,7 @@ const Home = () => {
       this.scrollY >= 999 / 2 ? setShow(true) : setShow(false);
     };
   }, []);
- 
+  const prefix = "/portfilio";
   return (
     <Layout>
       <Section grid>
@@ -49,7 +49,7 @@ const Home = () => {
           right: show ? 10 : -50,
         }}
       >
-        <Image src={UpArrow} layout="fill" alt="firas debich" />{" "}
+        <Image src={"/up-arrow.svg"} layout="fill" alt="firas debich" />{" "}
       </Up>
       <Projects />
       <div ref={observe} id="tech">
