@@ -1,7 +1,6 @@
 module.exports = {
-    images:{
-     path:"./pages",   
-     loader:"default"
+    images:{ 
+     loader:"https://firas-debich.github.io/portfilio/"
     },
  basePath:"/portfilio",
  assetPrefix:"/portfilio"
