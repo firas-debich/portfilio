@@ -38,6 +38,8 @@ const Projects = () => {
                 <Fade>
                   <Fade>
                     <Image
+                      placeholder="blur"
+                      blurDataURL
                       layout="responsive"
                       width={288}
                       height={204}
