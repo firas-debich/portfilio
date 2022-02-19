@@ -1,6 +1,6 @@
 module.exports = {
     images:{
-     path:"/_next/image",   
+     path:"/_next/static",   
      loader:"default"
     },
  basePath:"/portfilio",
