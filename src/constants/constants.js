@@ -1,9 +1,9 @@
-import image1 from "./../../public/images/projectImage-min.png"
-import image2 from "./../../public/images/1-min.png"
-import image3 from "./../../public/images/2-min.png"
-import image4 from "./../../public/images/bc-min.png"
-import image5 from "./../../public/images/carXProject-min.png"
-import image6 from "./../../public/images/4-min.png"
+const  image1 = "/images/projectImage-min.png"
+const  image2 = "/images/1-min.png"
+const  image3 = "/images/2-min.png"
+const  image4 = "/images/bc-min.png"
+const  image5 = "/images/carXProject-min.png"
+const  image6 = "/images/4-min.png"
 
 export const projects = [
   {
