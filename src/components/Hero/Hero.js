@@ -1,10 +1,6 @@
 import React from "react";
 
-import {
-  Section,
-  SectionText,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
+import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
@@ -19,7 +15,11 @@ const Hero = (props) => {
   return (
     <>
       <Section row nopadding>
-        <LeftSection>
+        <LeftSection
+          style={{
+            alignSelf: "center",
+          }}
+        >
           <SectionTitle main center>
             <Typed strings={textLines} typeSpeed={40} backSpeed={40} loop />
           </SectionTitle>

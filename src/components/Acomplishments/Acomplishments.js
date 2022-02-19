@@ -26,20 +26,15 @@ const Acomplishments = () => (
         <Boxes>
           {data.map((card, index) => (
             <Box key={index}>
-                <Fade>
-             
-                  <BoxNum>{`${card.number}`}</BoxNum>
-               
-                  <BoxText>{card.text}</BoxText>
-            
-            </Fade>
-              </Box>
+              <Fade>
+                <BoxNum>{`${card.number}`}</BoxNum>
+                <BoxText>{card.text}</BoxText>
+              </Fade>
+            </Box>
           ))}
         </Boxes>
       </Fade>
-      <Fade>
-        <SectionDivider />
-      </Fade>
+   
     </Section>
   </Fade>
 );

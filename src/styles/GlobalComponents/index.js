@@ -1,4 +1,18 @@
 import styled,{ keyframes }  from "styled-components";
+export const Up = styled.div `
+position: fixed;
+bottom:20px;
+color:white;
+font-weight:bold;
+font-size:12px;
+padding:5px;
+font-family:Arail, Tahoma;
+cursor:pointer;
+transition:0.2s;
+display:flex;
+width:40px;
+height:40px
+`
 const fadeIn = keyframes`
   from {
     transform: scale(0);
@@ -11,7 +25,7 @@ const fadeIn = keyframes`
   }
 `;
 export  const Fade = styled.div`
-  
+  margin:0;
   animation:  ${fadeIn} 1s linear ;
 `;
 export const Section = styled.section`
@@ -24,7 +38,7 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
-
+  
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
     flex-direction: column;

@@ -13,35 +13,66 @@ import {
   SocialContainer,
   SocialIconsContainer,
 } from "./FooterStyles";
-const prefix = "/portfilio" 
+const prefix = "/portfilio";
 const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+21656642478">+216 56 642 478</LinkItem>
+          <LinkItem
+            href="tel:+21656642478"
+            target="_blank"
+            aria-label={"telephone"}
+            rel="noopener noreferrer"
+          >
+            +216 56 642 478
+          </LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:firasdebich06@gmail.com">
+          <LinkItem
+            href="mailto:firasdebich06@gmail.com"
+            target="_blank"
+            aria-label={"email"}
+            rel="noopener noreferrer"
+          >
             firasdebich06@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-        {/*"contact me comp"*/}
+          {/*"contact me comp"*/}
           <Slogan></Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/firas-debich">
+          <SocialIcons
+            href="https://github.com/firas-debich"
+            id="github"
+            target="_blank"
+            aria-label="github"
+            rel="noopener noreferrer"
+          >
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/firas-debich-a0b703223/">
+          <SocialIcons
+            href="https://www.linkedin.com/in/firas-debich-a0b703223/"
+            id="linkedin"
+            target="_blank"
+            aria-label="linkedin"
+            rel="noopener noreferrer"
+          >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href={`${prefix}/images/resume.pdf`} download>
+          <SocialIcons
+            href={`${prefix}/images/resume.pdf`}
+            target="_blank"
+            id="resume"
+            aria-label="resume"
+            rel="noopener noreferrer"
+            download
+          >
             <GoCloudDownload size="3rem" />
           </SocialIcons>
         </SocialContainer>
