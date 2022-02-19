@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-
 import { ImWink2 } from "react-icons/im";
 import {
   Container,
@@ -13,13 +12,20 @@ import {
   Span,
 } from "./HeaderStyles";
 import { GoCloudDownload } from "react-icons/go";
-const prefix = "/portfilio";
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/" aria-label={"home page"} id="home" rel="noopener noreferrer"  >
+      <Link
+        href="/"
+        aria-label={"home page"}
+        id="home"
+        rel="noopener noreferrer"
+      >
         <a
-        href="/" aria-label={"home page1"} id="home1" rel="noopener noreferrer"
+          href="/"
+          aria-label={"home page1"}
+          id="home1"
+          rel="noopener noreferrer"
           style={{
             display: "flex",
             alignItems: "center",
@@ -66,7 +72,7 @@ const Header = () => (
         target="_blank"
         aria-label="resume"
         rel="noopener noreferrer"
-        href={`${prefix}/images/resume.pdf`}
+        href={`/images/resume.pdf`}
         download
       >
         <GoCloudDownload size="3rem" name="resume" />

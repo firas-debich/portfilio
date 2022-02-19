@@ -13,7 +13,6 @@ import {
   SocialContainer,
   SocialIconsContainer,
 } from "./FooterStyles";
-const prefix = "/portfilio";
 const Footer = () => {
   return (
     <FooterWrapper>
@@ -66,7 +65,7 @@ const Footer = () => {
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
           <SocialIcons
-            href={`${prefix}/images/resume.pdf`}
+            href={`/images/resume.pdf`}
             target="_blank"
             id="resume"
             aria-label="resume"
