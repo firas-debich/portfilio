@@ -37,19 +37,16 @@ const Projects = () => {
               <BlogCard key={i}>
                 <Fade>
                   <Fade>
-                {
-                  /**
+            
                   <Image
+                    placeholder="blur"
                       layout="responsive"
                       width={288}
                       height={204}
                       src={p.image}
                       alt={p.alt}
+                        blurDataURL
                     />
-                  
-                  
-                   */
-                }  
                   </Fade>
 
                   <TitleContent>
