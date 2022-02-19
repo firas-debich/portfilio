@@ -1,11 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import firas from "./../../../public/images/pic-min.png"
+const prefix = "/portfilio/"
 const BackgroundImage = () => (
+  
   <div>
     <Image
       placeholder="blur"
-      src={firas}
+      src={prefix+firas}
       height={310}
       width={220}
       layout="responsive"
