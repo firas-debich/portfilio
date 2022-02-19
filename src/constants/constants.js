@@ -1,9 +1,16 @@
+import image1 from "./../../public/images/projectImage-min.png"
+import image2 from "./../../public/images/1-min.png"
+import image3 from "./../../public/images/2-min.png"
+import image4 from "./../../public/images/bc-min.png"
+import image5 from "./../../public/images/carXProject-min.png"
+import image6 from "./../../public/images/4-min.png"
+
 export const projects = [
   {
     title: "Cryptocurrency Track",
     description:
       "Cryptocurrency Track is a platform that lets the user discover and learn more about the blockchain world.",
-    image: require("./../../public/images/projectImage-min.png"),
+    image: image1,
     tags: ["React", "Redux Toolkit", "Rapid API", "Ant Design"],
     source: "https://github.com/firas-debich/kryptoApp",
     visit: "https://firas-debich.github.io/kryptoApp/",
@@ -14,7 +21,7 @@ export const projects = [
     title: "Travel Companion",
     description:
       "Travel Companion is a platform that lets customers discover new local or international restaurants, Hotel, Attractions and it's easy to use.",
-    image: require("./../../public/images/1-min.png"),
+    image: image2,
     tags: ["React", "Rapid API", "Material UI", "Google API"],
     source: "https://github.com/firas-debich/travel.github.io",
     visit: "https://firas-debich.github.io/travel.github.io/",
@@ -25,7 +32,7 @@ export const projects = [
     title: "Chrome Extension",
     description:
       "An Extension that blocks some of social media and unsecure website",
-    image: require("./../../public/images/2-min.png"),
+    image: image3,
     tags: ["JavaScript", "Html 5", "CSS 3"],
     source: "https://github.com/firas-debich/chrome-extension",
     visit: "https://github.com/firas-debich/chrome-extension",
@@ -36,7 +43,7 @@ export const projects = [
     title: "Blockchain App",
     description:
       "Blockchain cryptocurrency app is a platform that allow the user to send ethereum through the blockchain network",
-    image: require("./../../public/images/bc-min.png"),
+    image: image4,
     tags: ["React", "Tailwind CSS", "Solidity", "web 3"],
     source: "https://github.com/firas-debich/Blockchain-App",
     visit: "https://firas-debich.github.io/Blockchain-App/",
@@ -47,7 +54,7 @@ export const projects = [
     title: "Carx",
     description:
       "A team Project where we Developed a mobile application that allows car users to ask for an agent to clean their car where ever they are.",
-    image: require("./../../public/images/carXProject-min.png"),
+    image: image5,
     tags: ["React Native", "Tailwind css", "Nest Js", "PostgreSQL"],
     source: "https://github.com/firas-debich/carX",
     visit: "https://expo.dev/artifacts/b7481cbc-d12e-4968-8e7c-1b07c907c1b2",
@@ -58,7 +65,7 @@ export const projects = [
     title: "UberEats Clone",
     description:
       "UberEats Clone is a commission-free online ordering system and food ordering app helping restaurants feed their hungry customers.",
-    image: require("./../../public/images/4-min.png"),
+    image: image6,
     tags: ["React Native", "Google Places", "Firebase"],
     source:
       "https://github.com/firas-debich/react-native-Uber-Eats-clone/tree/main",

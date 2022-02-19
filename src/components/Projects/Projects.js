@@ -37,15 +37,12 @@ const Projects = () => {
               <BlogCard key={i}>
                 <Fade>
                   <Fade>
-            
-                  <Image
-                    placeholder="blur"
+                    <Image
                       layout="responsive"
                       width={288}
                       height={204}
                       src={p.image}
                       alt={p.alt}
-                        blurDataURL
                     />
                   </Fade>
 
@@ -72,7 +69,7 @@ const Projects = () => {
                     <li>
                       {" "}
                       <ExternalLinks
-                       id={p.title + "3"}
+                        id={p.title + "3"}
                         href={p.visit}
                         target="_blank"
                         aria-label={p.title}

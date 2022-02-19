@@ -1,14 +1,13 @@
 import React from "react";
 import Image from "next/image";
-const  firas = require( "./../../../public/images/pic-min.png")
-const prefix = "/portfilio";
+import firas from "./../../../public/images/pic-min.png"
 const BackgroundImage = () => (
   <div>
     <Image
       placeholder="blur"
-      src={require( "./../../../public/images/pic-min.png")}
-      height={350}
-      width={260}
+      src={firas}
+      height={310}
+      width={220}
       layout="responsive"
       alt="firas debich - Firas Debich "
       priority
