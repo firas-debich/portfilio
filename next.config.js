@@ -1,6 +1,6 @@
 module.exports = {
     images: {
-    loader: [ "default", "imgix", "cloudinary", "akamai", "custom" ],
+    loader: "akamai",
     path: '/',
   },
 
