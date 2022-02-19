@@ -1,6 +1,7 @@
 module.exports = {
     images:{
-     path:"/_next/static",   
+        formats: ['image/png','image/jpeg'],
+     path:"/public/images",   
      loader:"default"
     },
  basePath:"/portfilio",
