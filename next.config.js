@@ -1,6 +1,6 @@
 module.exports = {
     images:{
-     path:"/public/images",   
+     path:"./pages",   
      loader:"default"
     },
  basePath:"/portfilio",
