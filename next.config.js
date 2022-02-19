@@ -1,7 +1,7 @@
 module.exports = {
     images: {
-    loader: 'imgix',
-    path: '',
+    loader: [ "default", "imgix", "cloudinary", "akamai", "custom" ],
+    path: '/',
   },
 
 }
