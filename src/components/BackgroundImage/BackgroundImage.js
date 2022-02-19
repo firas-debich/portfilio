@@ -4,7 +4,7 @@ const BackgroundImage = () => (
   <div>
     <Image
       placeholder="blur"
-      src={"https://firas-debich.github.io/portfilio/pic-min.png"}
+      src="pic-min.png"
       height={350}
       width={260}
       layout="responsive"
