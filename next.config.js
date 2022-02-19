@@ -1,4 +1,6 @@
 module.exports = {
- basePath:"/portfilio",
- assetPrefix:"/portfilio"
+    images: {
+        loader: 'imgix',
+        path: '/',
+      },
 }
