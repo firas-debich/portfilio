@@ -3,6 +3,6 @@ module.exports = {
     loader: 'imgix',
     path: '/portfilio',
   },
- basePath:"/portfilio",
- assetPrefix:"/portfilio"
+ basePath:"/portfilio/",
+ assetPrefix:"/portfilio/"
 }
