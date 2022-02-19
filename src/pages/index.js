@@ -36,7 +36,7 @@ const Home = () => {
       this.scrollY >= 999 / 2 ? setShow(true) : setShow(false);
     };
   }, []);
-  const prefix = "/portfilio";
+
   return (
     <Layout>
       <Section grid>
@@ -49,7 +49,7 @@ const Home = () => {
           right: show ? 10 : -50,
         }}
       >
-        <Image src={"/up-arrow.svg"} layout="fill" alt="firas debich" />{" "}
+        <Image src="/up-arrow.png" layout="fill" priority placeholder="blur" alt="firas debich"  blurDataURL/>{" "}
       </Up>
       <Projects />
       <div ref={observe} id="tech">
