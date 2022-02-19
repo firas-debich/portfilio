@@ -49,7 +49,7 @@ const Home = () => {
           right: show ? 10 : -50,
         }}
       >
-        <Image src="/up-arrow.png" layout="fill" priority placeholder="blur" alt="firas debich"  blurDataURL/>{" "}
+        <Image src="/images/up-arrow.png" layout="fill" priority placeholder="blur" alt="firas debich"  blurDataURL/>{" "}
       </Up>
       <Projects />
       <div ref={observe} id="tech">
