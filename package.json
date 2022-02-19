@@ -5,7 +5,7 @@
   "homepage": "https://firas-debich.github.io/portfilio.github.io-1/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "export": "next export",
     "start": "next start"
   },
