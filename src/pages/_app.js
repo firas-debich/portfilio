@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta key="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#dfe8eb"/>
         <meta key="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#171a1c"/>
-        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+        <meta httpEquiv="X-UA-Compatible" content="ie-edge" />
         <meta
           name="description"
           content="I'm firas debich a professional JavaScript developer, front end developer reactJS NextJS , back end developer Node JS Express JS, mobile React Native, full stack React and NodeJS. "

@@ -21,7 +21,6 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 import Image from "next/image";
-const prefix = "/portfilio";
 const Projects = () => {
   const { observe, inView } = useInView({
     onEnter: ({ unobserve }) => unobserve(),
@@ -42,7 +41,7 @@ const Projects = () => {
                       layout="responsive"
                       width={288}
                       height={204}
-                      src={prefix + p.image}
+                      src={p.image}
                       alt={p.alt}
                     />
                   </Fade>
