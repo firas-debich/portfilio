@@ -65,7 +65,7 @@ const Footer = () => {
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
           <SocialIcons
-            href={`/images/resume.pdf`}
+            href="/images/resume.pdf"
             target="_blank"
             id="resume"
             aria-label="resume"

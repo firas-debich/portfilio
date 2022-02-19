@@ -72,7 +72,7 @@ const Header = () => (
         target="_blank"
         aria-label="resume"
         rel="noopener noreferrer"
-        href={`/images/resume.pdf`}
+        href="/images/resume.pdf"
         download
       >
         <GoCloudDownload size="3rem" name="resume" />
