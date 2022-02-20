@@ -41,11 +41,11 @@ export default class MyDocument extends Document {
           <link
             rel="shortcut icon"
             type="image/ico"
-            href="/images/server-coding.png"
+            href={`${prefix}/images/server-coding.png`}
           />
           <link
             rel="apple-touch-icon"
-            href="/images/server-coding.png"
+            href={`${prefix}/images/server-coding.png`}
           />
           <link
             href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
