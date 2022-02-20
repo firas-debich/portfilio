@@ -17,26 +17,22 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <Fade>
+
     <Section>
-      <Fade>
-        <SectionTitle>Education</SectionTitle>
-      </Fade>
-      <Fade>
-        <Boxes>
-          {data.map((card, index) => (
-            <Box key={index}>
-              <Fade>
-                <BoxNum>{`${card.number}`}</BoxNum>
-                <BoxText>{card.text}</BoxText>
-              </Fade>
-            </Box>
-          ))}
-        </Boxes>
-      </Fade>
    
+        <SectionTitle>Education</SectionTitle>
+     
+
+      <Boxes>
+        {data.map(({number,text}, index) => (
+          <Box key={index}>
+            <BoxNum>{`${number}`}</BoxNum>
+            <BoxText>{text}</BoxText>
+          </Box>
+        ))}
+      </Boxes>
     </Section>
-  </Fade>
+
 );
 
 export default Acomplishments;
