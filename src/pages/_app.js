@@ -15,6 +15,7 @@ export default function App({ Component, pageProps }) {
           name="description"
           content="I'm firas debich a professional JavaScript developer, front end developer reactJS NextJS , back end developer Node JS Express JS, mobile React Native, full stack React and NodeJS. "
         />
+        <meta name="google-site-verification" content="QZUZO0ozsvBAJ-K_ExlT74llSEu1dYDayRQNAjMfOcY" />
          <meta property="firas debich " content="firas debich full stack developer" key="firas debich full stack developer" />
         <meta
           name="keywords"
