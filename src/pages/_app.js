@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
          <meta property="firas debich " content="firas debich full stack developer" key="firas debich full stack developer" />
         <meta
           name="keywords"
-          content="Front End Developer , Back End Developer , Full Stack Developer , React , NextJS, firas debich , Firas Debich  "
+          content="Front End Developer , Back End Developer , Full Stack Developer , React , NextJS, firas debich , Firas Debich "
         />
         <meta name="author" content="Firas Debich" />
         <title>Firas Debich - Full Stack Developer </title>
