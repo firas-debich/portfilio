@@ -25,6 +25,7 @@ const Projects = () => {
   const { observe, inView } = useInView({
     onEnter: ({ unobserve }) => unobserve(),
   });
+  
   return (
     <Section nopadding id="projects">
       <SectionDivider />
