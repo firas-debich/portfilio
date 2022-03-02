@@ -33,7 +33,7 @@ const Header = () => (
             marginBottom: "20px",
           }}
         >
-          <ImWink2 size="2.8rem" /> <Span>Portfolio</Span>
+          <Span>Portfolio</Span>
         </a>
       </Link>
     </Div1>

@@ -1,9 +1,9 @@
-const  image1 = "/images/projectImage-min.png"
-const  image2 = "/images/1-min.png"
-const  image3 = "/images/2-min.png"
-const  image4 = "/images/bc-min.png"
-const  image5 = "/images/carXProject-min.png"
-const  image6 = "/images/4-min.png"
+const image1 = "/images/projectImage-min.png";
+const image2 = "/images/1-min.png";
+const image3 = "/images/2-min.png";
+const image4 = "/images/bc-min.png";
+const image5 = "/images/carXProject-min.png";
+const image6 = "/images/4-min.png";
 
 export const projects = [
   {
