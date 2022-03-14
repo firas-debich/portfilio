@@ -13,16 +13,17 @@ export default function App({ Component, pageProps }) {
         <meta httpEquiv="X-UA-Compatible" content="ie-edge" />
         <meta
           name="description"
-          content="I'm firas debich a professional JavaScript developer, front end developer reactJS NextJS , back end developer Node JS Express JS, mobile React Native, full stack React and NodeJS. "
+          content="I'm firas debbich a professional JavaScript developer, front end developer reactJS NextJS , back end developer Node JS Express JS, mobile React Native, full stack React and NodeJS. "
         />
+        <meta name="google-site-verification" content="RkmIrCKNi-DwBzlnyXqQwv4f2N_35KnY4ZjvWl5UX88" />
         <meta name="google-site-verification" content="QZUZO0ozsvBAJ-K_ExlT74llSEu1dYDayRQNAjMfOcY" />
-         <meta property="firas debich " content="firas debich full stack developer" key="firas debich full stack developer" />
+         <meta property="firas debbich " content="firas debbich full stack developer" key="firas debbich full stack developer" />
         <meta
           name="keywords"
-          content="Front End Developer , Back End Developer , Full Stack Developer , React , NextJS, firas debich , Firas Debich "
+          content="Front End Developer , Back End Developer , Full Stack Developer , React , NextJS, firas debbich , Firas Debbich "
         />
         <meta name="author" content="Firas Debich" />
-        <title>Firas Debich - Full Stack Developer </title>
+        <title>Firas Debbich | Full Stack JS Developer </title>
       </Head>
       <Theme>
         <Component {...pageProps} />
